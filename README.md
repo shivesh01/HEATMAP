@@ -30,11 +30,11 @@ In this workshop you will use python language and its libraries to create stunni
 Even you can visualize the data, your own data too!
 
 
-*I m showing you what you will learned after completing  the workshop
+**I m showing you what you will learned after completing  the workshop**
 
-[Heat-Map](https://cloud-fgw5w2l4l.vercel.app/0screenshot_2020-12-20_at_21.41.42.png)
+![](https://cloud-fgw5w2l4l.vercel.app/0screenshot_2020-12-20_at_21.41.42.png)
 
-[Click Here to Working DEMO on Repl](https://repl.it/@ShiveshSingh/Heatmap#main.py)
+[Click Here to See Working DEMO on Repl](https://repl.it/@ShiveshSingh/Heatmap#main.py)
 
 
 # Getting started
@@ -47,38 +47,47 @@ Or You can run this program on your Python idle like pycharm, atom, Jupyter note
 **Step zero**
 
 
-**Importing libraries 
+**Importing libraries**
 
-repl - when we programming  in repl it automatically imports the libraries and dependencies  with simple command shown below .
-and hit run.
+**Repl** - when we programming  in repl it automatically imports the libraries and dependencies  with simple command shown below and hit run.
 we have used pd as initial  because  we don't have to write whole panda again and again...
 
 ``` import pandas as pd ```
+
         
-YAY! you have completed the first step by importing panda library
+***YAY! you have completed the first step by importing pandas library*** 
 
+**Now import all libraries 
 
-for 
-
- for repl ...  images
+For you will see [Repl]()
  
- for terminal based like pycharm, jupyter, atom and visual studio ...
- 
- You have to go to command line then use this command " Pip install pandas numpy scipy statsmodel matplotlib seaborn "
+For terminal idle based like pycharm, jupyter, atom and visual studio ...
+First, You have to go to command line then use this command " Pip install pandas numpy scipy statsmodel matplotlib seaborn "
+Above commond line will install all libraries in your idle...
+
+After, You will see this [Command Terminal]() 
+
+As you can see you have successfully  installed all libraries and it's dependencies.
+
+Hip Hip Hooray!
+
+>**One step at a time is all it takes to get you there.
+                                                     by Emily Dickinson
+                                       
     
     
     
- images
+ victory g.i.f
 
 
-# Know more about the libraries you will going to use
+# Know more about the libraries you will going to use :-
 
-# Pandas
+## Pandas🐼
 pandas (all lowercase) is a popular Python-based data analysis toolkit which can be imported using import pandas as pd. It presents a diverse range of utilities, ranging from parsing multiple file formats to converting an entire data table into a NumPy matrix array. This makes pandas a trusted ally in data science and machine learning.
 
 *pandas
 
-# Numpy
+## Numpy🔢
 NumPy is a library used for working with arrays. It also has functions for working in domain of linear algebra, fourier transform, and matrices.
 Basically it is used to perform large set of mathematical operations on array. array, is a data structure consisting of a collection of elements, each identified by at least one array index or key.
 
@@ -86,22 +95,22 @@ Basically it is used to perform large set of mathematical operations on array. a
 
 
 
-# Scipy
+## Scipy👨🏻‍🔬
 SciPy is an open-source Python library which is used to solve scientific and mathematical problems. It is built on the NumPy extension and allows the user to manipulate and visualize data with a wide range of high-level commands.
 
 * scipy image
 
-# Statsmodel
+## Statsmodel🧮
 Statsmodels is a Python package that allows users to explore data, estimate statistical models, and perform statistical tests. An extensive list of descriptive statistics, statistical tests, plotting functions, and result statistics are available for different types of data and each estimator.
 
 *statsmodel image
 
-# Matplotlib
+## Matplotlib📊
 A picture is worth a thousand words, and with Python’s matplotlib library, it fortunately takes far less than a thousand words of code to create a production-quality graphic.
 
 *matplotlib img
 
-## Seaborn
+## Seaborn䷀
 Seaborn library is one of the rarest earth metal. If you are science student you will get...😄. Let's talk about seaborn library which is made up in top of the
 Matplotlib  library. Matplotlib is mainly deployed for basic plotting. Visualization using Matplotlib generally consists of bars, pies, lines, scatter plots and  so on.
 
@@ -121,6 +130,9 @@ Great Right!😲
 
         sns.scatterplot(x=height, y=weight)
         plt.show()
+        
+ **Output**
+        ![]()
 
 
 # Step 2. Relp plot
@@ -133,7 +145,9 @@ Great Right!😲
         a = sns.load_dataset("flights")
         sns.relplot(x="passengers", y="month", hue="year", data=a)
         plt.show()
-
+        
+ **Output**
+ ![]()
 
 # Step 3. Violen Plot
         
@@ -143,7 +157,8 @@ Great Right!😲
         tips = sns.load_dataset("tips")
         sns.catplot(x="day", y="total_bill", kind="violin", data=tips)
         plt.show()
-        
+**Output**
+![]()
         
         
 # Step 4. Pair Grid
@@ -159,6 +174,9 @@ Great Right!😲
         b = sns.PairGrid(a)
         b.map(plt.scatter)
         plt.show()
+**Output**
+![]()
+
 
 # Step 5. Heat Map
         
@@ -168,18 +186,13 @@ Great Right!😲
         flights = sns.load_dataset("flights")
         flights = flights.pivot("month", "year", "passengers")
         ax = sns.heatmap(flights, annot=True, fmt="d", linewidths=5, cmap="YlGnBu")
+        
+ **Output**
+ ![]()
 
 
 
 
-
-
-
-
-
-
-
-Simple Graph
 
 
 with elpanation
@@ -197,7 +210,7 @@ what doe this graphs says
 
 
 
-Hacking
+#Hacking
 
 one more resources what you can do this Heatmaps
 
