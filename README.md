@@ -18,10 +18,6 @@
 * Resources for datasets
 
 * Hacking
-  * Boxen
-  * Heatmap "Cereals"
-  * Multivariate Distribution
-
 
 
 # INTRODUCTION 
@@ -32,7 +28,7 @@ Even you can visualize the data, your own data too!
 
 **I m showing you what you will learn after completing the workshop**
 
-![Seaborn Plot](https://cloud-plxk1wu16.vercel.app/0seaborn.png)
+![Seaborn Plot](https://cloud-plxk1wu16.vercel.app/0seaborn.png =800*300)
 
 [Click Here to See Working HEATMAP DEMO on Repl](https://repl.it/@ShiveshSingh/Heatmap#main.py)
 
@@ -62,10 +58,8 @@ we have to use pd as initials because we don't have to write the whole panda aga
 ``` python
 import pandas as pd 
 ``` 
-
-       
-**YAY! you have completed the first step by importing pandas library**
- victory g.i.f
+![](https://cloud-mga2rf9gs.vercel.app/5tenor.gif)
+**YAY! you have learned how to import library in repl.
 
 
 # Know more about the libraries you will going to use:
@@ -111,7 +105,7 @@ Great Right!😲
 ```
         
  **Output**
-        ![Scatter plot](https://cloud-1u28vivih.vercel.app/0scatter_plot.png)
+        ![Scatter plot](https://cloud-1u28vivih.vercel.app/0scatter_plot.png =400*400)
 
 
 # Step 2. Relp Plot
@@ -217,17 +211,13 @@ Great Right!😲
 # voilà!
 
 
-![**congratulations!✌️  you have completed the workshop.](https://cloud-nyfapmvlu.vercel.app/0amaze.gif "Yes you did it! :)")
-![](https://cloud-mga2rf9gs.vercel.app/5tenor.gif)
-![](https://cloud-mga2rf9gs.vercel.app/4tenor__1_.gif)
+![**congratulations!✌️  you have completed the workshop.](https://cloud-nyfapmvlu.vercel.app/0amaze.gif "Yes you did it! :)") ![](https://cloud-mga2rf9gs.vercel.app/4tenor__1_.gif)
 
 # Keep Hacking!
 
 You can learn these graph plots too!
 
-[Keep Hacking](https://cloud-8c3mmthaa.vercel.app/0keep_hacking.png "You can make it happen!")
-
-
+![](https://cloud-8c3mmthaa.vercel.app/0keep_hacking.png "You can make it happen!")
 Resources
 
 - [Univariate Distribution of Birth Rate](https://towardsdatascience.com/visualize-world-trends-using-seaborn-in-python-2e563e7d35da)
