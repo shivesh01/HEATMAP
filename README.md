@@ -181,6 +181,7 @@ Great Right!😲
 # Step 5. Heat Map
         
 ```python
+        import numpy as np
         import matplotlib.pyplot as plt
         import seaborn as sns
 
