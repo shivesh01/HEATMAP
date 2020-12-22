@@ -1,3 +1,9 @@
+---
+name: Heatmap
+description: Data visualisation with Seaborn
+author: shivesh01
+---
+
 **“Creativity is the goal. Coding is just to allow that. Creativity is in the front seat; technology is in the backseat. It is sort of the blend with both of these that you can do such powerful things now.”**                                             by       Tim cook
  
 # Welcome to Heatmap Workshop!🤗
@@ -51,13 +57,12 @@ Go!
 
 ### Setting up an account on repl
 
-**Repl when we program in repl it automatically imports the libraries and dependencies with the simple command shown below and hit run.
-So, You just need a replt account or any python idle to get started**
+**when we program in repl it automatically imports the libraries and dependencies with the simple command. So, You just need a replt account or any python idle to get started**
      
 # Know more about the libraries you will going to use:
 
 ## Pandas🐼
-pandas is a popular Python-based data analysis toolkit that can be imported using import pandas as pd. It presents a diverse range of utilities, ranging from parsing multiple file-formats to converting an entire data table into a NumPy matrix array. This makes pandas a trusted ally in data science and machine learning.
+Pandas is a popular Python-based toolkit. It presents a diverse range of utilities like converting an entire data table into a NumPy matrix array and much more. This makes pandas a trusted ally in data science and machine learning.
 
 ## Numpy🔢
 NumPy is a library used for working with arrays. Basically, it is used to perform a large set of mathematical operations on an array. An array is a data structure consisting of a collection of elements, each identified by at least one array index or key.
@@ -66,14 +71,13 @@ NumPy is a library used for working with arrays. Basically, it is used to perfor
 SciPy is an open-source Python library that is used to solve scientific and mathematical problems. It is built on the NumPy extension and allows the user to manipulate and visualize data with a wide range of high-level commands.
 
 ## Statsmodel🧮
-Statsmodels is a Python package that allows users to explore data, estimate statistical models, and perform statistical tests. An extensive list of descriptive statistics, statistical tests, plotting functions, and result statistics are available for different types of data and each estimator.
+Statsmodels is a Python package that allows users to explore data, estimate statistical models, and perform statistical tests.
 
 ## Matplotlib📊
 A picture is worth a thousand words, and with Python’s matplotlib library, fortunately, takes far less than a thousand words of code to create a production-quality graphic.
 
 ## Seaborn䷀
-Seaborn library is one of the rarest earth metals. If you are a science student you will get...😄. Let's talk about the seaborn library which is made up on top of the
-Matplotlib library. Seaborn: Seaborn, on the other hand, provides a variety of visualization patterns. It uses fewer syntax and has easily interesting default themes.
+Seaborn library is one of the rarest earth metals. If you are a science student you will get...😄. Seaborn, provides a variety of visualization patterns. It uses fewer syntax and has interesting default themes.
 Great Right!😲
  
  # Step 1.Plotting Scatter PLot
@@ -97,7 +101,7 @@ Great Right!😲
 ```
         
  **Output**
-        ![Scatter plot](https://cloud-1u28vivih.vercel.app/0scatter_plot.png )
+        ![Scatter plot](https://cloud-ikhasazgz.vercel.app/3scatter_plot.png )
 
 
 # Step 2. Relp Plot
@@ -123,7 +127,7 @@ Great Right!😲
 ```
         
  **Output**
- ![Relp plot](https://cloud-r0uzi642u.vercel.app/0relp_plot.png)
+ ![Relp plot](https://cloud-ikhasazgz.vercel.app/2relp_plot.png)
  
  **Data-set required named [flights](https://cloud-5jao3dtbu.vercel.app/0flights.csv "click to download")
 
@@ -141,7 +145,7 @@ Great Right!😲
 ```
 
 **Output**
-![Violen plot](https://cloud-80y5ck5bm.vercel.app/0violin_plot.png)
+![Violen plot](https://cloud-ikhasazgz.vercel.app/4violin_plot.png)
 
 **Data-set required named [tips](https://cloud-1oaqj43if.vercel.app/0tips.csv "click to download")
         
@@ -170,7 +174,7 @@ Great Right!😲
         
        
 **Output**
-![Pair Grid](https://cloud-80y5ck5bm.vercel.app/1pairgrid.png)
+![Pair Grid](https://cloud-ikhasazgz.vercel.app/1pairgrid.png)
 
 **Data-set required [flights](https://cloud-5jao3dtbu.vercel.app/0flights.csv "click to download")
 
@@ -195,7 +199,7 @@ Great Right!😲
 ```
         
  **Output**
- ![Heatmap](https://cloud-85xdg56ql.vercel.app/0heatmap.png)
+ ![Heatmap](https://cloud-ikhasazgz.vercel.app/0heatmap.png)
 
 **Data-set required [flights](https://cloud-5jao3dtbu.vercel.app/0flights.csv "click to download")
 
@@ -218,4 +222,6 @@ Resources
 
 
 **You can create a lot of variety of heatmap as I have created below 
-You can try these, If you want to learn more**
+You can try these too! try to figure it out own your own...
+![flight heatmap](https://cloud-tgw4nss32.vercel.app/0heatmap_2.png)
+![flight heatmap staircase](https://cloud-tgw4nss32.vercel.app/1heatmap_4.png)
