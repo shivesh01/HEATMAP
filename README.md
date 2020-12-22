@@ -28,7 +28,7 @@ Even you can visualize the data, your own data too!
 
 **I m showing you what you will learn after completing the workshop**
 
-![Seaborn Plot](https://cloud-plxk1wu16.vercel.app/0seaborn.png =800*300)
+![Seaborn Plot](https://cloud-plxk1wu16.vercel.app/0seaborn.png )
 
 [Click Here to See Working HEATMAP DEMO on Repl](https://repl.it/@ShiveshSingh/Heatmap#main.py)
 
@@ -49,19 +49,11 @@ Go!
 
 ## Step zero!
 
-###
- **Importing libraries**
+### Setting up an account on repl
 
-### -Repl - when we program in repl it automatically imports the libraries and dependencies with the simple command shown below and hit run.
-we have to use pd as initials because we don't have to write the whole panda again and again...
-
-``` python
-import pandas as pd 
-``` 
-![](https://cloud-mga2rf9gs.vercel.app/5tenor.gif)
-**YAY! you have learned how to import library in repl.
-
-
+**Repl when we program in repl it automatically imports the libraries and dependencies with the simple command shown below and hit run.
+So, You just need a replt account or any python idle to get started**
+     
 # Know more about the libraries you will going to use:
 
 ## Pandas🐼
@@ -105,7 +97,7 @@ Great Right!😲
 ```
         
  **Output**
-        ![Scatter plot](https://cloud-1u28vivih.vercel.app/0scatter_plot.png =400*400)
+        ![Scatter plot](https://cloud-1u28vivih.vercel.app/0scatter_plot.png )
 
 
 # Step 2. Relp Plot
@@ -211,7 +203,7 @@ Great Right!😲
 # voilà!
 
 
-![**congratulations!✌️  you have completed the workshop.](https://cloud-nyfapmvlu.vercel.app/0amaze.gif "Yes you did it! :)") ![](https://cloud-mga2rf9gs.vercel.app/4tenor__1_.gif)
+![**congratulations!✌️  you have completed the workshop.](https://cloud-mga2rf9gs.vercel.app/4tenor__1_.gif)
 
 # Keep Hacking!
 
