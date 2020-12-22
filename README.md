@@ -7,7 +7,8 @@ author: shivesh01
 **“Creativity is the goal. Coding is just to allow that. Creativity is in the front seat; technology is in the backseat. It is sort of the blend with both of these that you can do such powerful things now.”**                                             by       Tim cook
  
 # Welcome to Heatmap Workshop!🤗
-![computing](https://cloud-mga2rf9gs.vercel.app/0numpy.gif)
+![Demo](https://cloud-r2hy2epxt.vercel.app/0ezgif.com-gif-maker.gif)
+
 # Index
 * Introduction
 
@@ -101,7 +102,8 @@ Great Right!😲
 ```
         
  **Output**
-        ![Scatter plot](https://cloud-ikhasazgz.vercel.app/3scatter_plot.png )
+ 
+ ![Scatter plot](https://cloud-ikhasazgz.vercel.app/3scatter_plot.png )
 
 
 # Step 2. Relp Plot
@@ -127,6 +129,7 @@ Great Right!😲
 ```
         
  **Output**
+ 
  ![Relp plot](https://cloud-ikhasazgz.vercel.app/2relp_plot.png)
  
  **Data-set required named [flights](https://cloud-5jao3dtbu.vercel.app/0flights.csv "click to download")
@@ -145,6 +148,7 @@ Great Right!😲
 ```
 
 **Output**
+
 ![Violen plot](https://cloud-ikhasazgz.vercel.app/4violin_plot.png)
 
 **Data-set required named [tips](https://cloud-1oaqj43if.vercel.app/0tips.csv "click to download")
@@ -174,6 +178,7 @@ Great Right!😲
         
        
 **Output**
+
 ![Pair Grid](https://cloud-ikhasazgz.vercel.app/1pairgrid.png)
 
 **Data-set required [flights](https://cloud-5jao3dtbu.vercel.app/0flights.csv "click to download")
