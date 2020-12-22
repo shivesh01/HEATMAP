@@ -209,6 +209,49 @@ Great Right!😲
 
 ![**congratulations!✌️  you have completed the workshop.](https://cloud-mga2rf9gs.vercel.app/4tenor__1_.gif)
 
+**You can create a lot of variety of heatmap as I have created below 
+You can try these too! try to figure it out own your own...**
+![flight heatmap](https://cloud-tgw4nss32.vercel.app/0heatmap_2.png)
+
+
+```python
+
+import matplotlib.pyplot as plt
+import seaborn as sns
+import numpy as np
+
+flights = sns.load_dataset("flights")
+flights = flights.pivot("month", "year", "passengers")
+corr = np.corrcoef(np.random.randn(10, 200))
+mask = np.zeros_like(corr)
+mask[np.triu_indices_from(mask)] = True
+with sns.axes_style("white"):
+    f, ax = plt.subplots(figsize=(7, 5))
+    ax = sns.heatmap(corr, mask=mask, vmax=.3, square=True)
+plt.show()
+```
+
+![flight heatmap staircase](https://cloud-tgw4nss32.vercel.app/1heatmap_4.png)
+ **Data-set required named [flights](https://cloud-5jao3dtbu.vercel.app/0flights.csv "click to download")
+
+
+```python
+import matplotlib.pyplot as plt
+import seaborn as sns
+import numpy as np
+
+flights = sns.load_dataset("flights")
+flights = flights.pivot("month", "year", "passengers")
+grid_kws = {"height_ratios": (.9, .05), "hspace": .3}
+f, (ax, cbar_ax) = plt.subplots(2, gridspec_kw=grid_kws)
+ax = sns.heatmap(flights, ax=ax,
+                 cbar_ax=cbar_ax,
+                 cbar_kws={"orientation": "horizontal"})
+plt.show()
+```
+ **Data-set required named [flights](https://cloud-5jao3dtbu.vercel.app/0flights.csv "click to download")
+
+
 # Keep Hacking!
 
 You can learn these graph plots too!
@@ -221,7 +264,3 @@ Resources
 - [Cereals compositions Heatmap](https://towardsdatascience.com/heatmap-basics-with-pythons-seaborn-fb92ea280a6c)
 
 
-**You can create a lot of variety of heatmap as I have created below 
-You can try these too! try to figure it out own your own...
-![flight heatmap](https://cloud-tgw4nss32.vercel.app/0heatmap_2.png)
-![flight heatmap staircase](https://cloud-tgw4nss32.vercel.app/1heatmap_4.png)
