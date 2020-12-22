@@ -218,4 +218,4 @@ Resources
 
 
 **You can create a lot of variety of heatmap as I have created below 
-You can try these, If you want to learn more
+You can try these, If you want to learn more**
