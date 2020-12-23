@@ -1,6 +1,6 @@
 ---
-name: Heatmap
-description: Data visualization with Seaborn
+name: 'Heatmap'
+description: 'Data visualization with Seaborn'
 author: '@shivesh01'
 ---
 
