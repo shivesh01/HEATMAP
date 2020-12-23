@@ -1,7 +1,7 @@
 ---
 name: Heatmap
 description: Data visualization with Seaborn
-author: shivesh01
+author: @shivesh01
 ---
 
 **“Creativity is the goal. Coding is just to allow that. Creativity is in the front seat; technology is in the backseat. It is sort of the blend with both of these that you can do such powerful things now.”**                                             by       Tim cook
