@@ -68,7 +68,7 @@ __Datasets__ [flights](https://cloud-5jao3dtbu.vercel.app/0flights.csv "click to
  ---         ---
 
 - Rename these file as flights and tips in repl folder in which you are working
-![drag and drop](https://cloud-lip1d7sks.vercel.app/0download___drop.png) ![rename](https://cloud-qh6au738f.vercel.app/1screenshot_2020-12-23_at_11.57.02_1.png)
+![drag and drop](https://cloud-lip1d7sks.vercel.app/0download___drop.png)![rename](https://cloud-qh6au738f.vercel.app/1screenshot_2020-12-23_at_11.57.02_1.png)
 
 - you are ready to code!
 
@@ -77,7 +77,7 @@ __Datasets__ [flights](https://cloud-5jao3dtbu.vercel.app/0flights.csv "click to
 
 **Advantage of working on repl**
 
-*when we program in repl it automatically imports the libraries and dependencies with the simple command. So, You just need a replt account or any python idle to get started*
+*when we program in repl it automatically imports the libraries and dependencies with the simple command. So, You just need a repl account or any python idle to get started.*
      
 # Know more about the libraries you will going to use:
 
@@ -109,18 +109,16 @@ Great Right!😲
         import seaborn as sns
         import matplotlib. pyplot as plt
 ```
- *We know that for plotting graph we need to add data .we will store them in list array by simply adding variable **height** and **weight** to store the any
- random values to be plotted.*
+ *We know that for plotting graph we need to add data . We can store them in list or array but here we use list variable namely **height** and **weight** to store the any values to be plotted.*
 ```python
         height = [62, 64, 69, 75, 66, 68, 65, 71, 76, 73]
         weight = [120, 136, 148, 175, 137, 165, 154, 172, 200, 187]
 ```
-*Now we have to label the graph with graph type with what we put on **x** and **y** axis in graph. Here we will going to scatterplot as graph type and 
-x label as height and y label as weight.*
+*Now we can plot & label the graph with graph-type and label then what you want to put on **x** and **y** axis in graph. Here we will be  going with scatterplot as graph-type and x label as height and y label as weight.*
 ```python
         sns.scatterplot(x=height, y=weight)
 ```
-*Finally to show the graph we use this function*
+*Finally to display the graph we will use*
 
 ```python
         plt.show()
@@ -130,34 +128,34 @@ x label as height and y label as weight.*
  
  ![Scatter plot](https://cloud-ikhasazgz.vercel.app/3scatter_plot.png )
  
- ### Fantastic! You have created your first plot ###
+ ### Fantastic! You have created your first plot🥳 ###
 
 
 # Step 2. Relp Plot
 
-*This plot will need flights dataset so , if you already have downloaded and pasted in the reply folder. Then you don't need to do it twice. Otherwise i have already included datasets link here [flights](https://cloud-5jao3dtbu.vercel.app/0flights.csv "click to download")*
+*This plot will need ```flights dataset``` so , If you already have downloaded and pasted in the reply folder. Then you don't need to do it twice. Otherwise i have included* 
+Data-set required named [flights](https://cloud-5jao3dtbu.vercel.app/0flights.csv "click to download")
 
-**Data-set required named [flights](https://cloud-5jao3dtbu.vercel.app/0flights.csv "click to download")
-       
+*Importing the required libraries as namely numpy, pandas, matplotlib & seaborn. You can do it too. Let's do it together!*
 ```python
         import numpy as np
         import pandas as pd
         import matplotlib.pyplot as plt
         import seaborn as sns
 ```
-*Here, we need one extra step because we are going download a **flights** data-sets. To download the dataset click highlighted flight word and put in your repl folder in which we are working and rename as* 
+*Here, we need one extra step because we are going download a flights data-sets. Download the dataset and put in your repl folder in which we are working and rename as* ```flights``` . * and let's put this in a variable. so, we can this variable letter as shown below.*
 ```python       
        flights = sns.load_dataset("flights")
 ```
-*relp-plot  is one minimalist  plot i have discovered and i know you will like it too. Here we will be using relp graph plot, labelling as x axis as passengers,
-labelling y axis as month, hue represents as color appearance parameters & last but not the least we need to load the data-set for that we have used  data = flights.*
+*Relp-plot  is one minimalist  plot i have discovered and i know you will like it too. Here we will be using relp graph plot with label as ```x axis as passengers```,```labelling y axis as month```,``` hue represents as color appearance parameters``` & we need to load the data-set for that we have already created a variable flights and we use them as data = flights.*
 ```python
        sns.relplot(x="passengers", y="month", hue="year", data=flights)
 ```       
+*As usual displaying the graph, we will be using this function.* 
 ```python     
        plt.show() 
 ```
- ### Fantastic! You have created your relp plot ###
+ ### Wow! You have created your relp plot 🥳👏🏻###
         
  **Output**
  
@@ -170,16 +168,23 @@ labelling y axis as month, hue represents as color appearance parameters & last 
 **Data-set required named [tips](https://cloud-1oaqj43if.vercel.app/0tips.csv "click to download")
 
 
-*Here, we need two libraries namely matplotlib and seaborn  and then we have to loading tips" data set in tips variable(you can load datasets in any variable but make sure you use rename them each places too.
-We are going to plot catplot, labelling the axis, kind is the parameter which is for which kind of graph plot and tips used to load the datasets*
-```python        
+*Here, we need two libraries namely matplotlib and seaborn and you know how to import the library. Right?😉*
+*Go ahead and do it*
+```python
         import matplotlib.pyplot as plt
         import seaborn as sns
-        
-        tips = sns.load_dataset("tips")
+```
+*Now simply loading ```tips``` dataset in tips variable(you can load datasets in any variable but make sure you use rename them each places too.* 
 
+```python
+        tips = sns.load_dataset("tips")
+```
+*Plotting catplot, labelling the axis, kind is the parameter which is for which kind of graph plot and tips used to load the datasets*
+```python        
         sns.catplot(x="day", y="total_bill", kind="violin", data=tips)
-    
+```
+*As usual displaying the graph, we will be using this function.*
+```python
         plt.show()
  ```
 
@@ -195,8 +200,8 @@ We are going to plot catplot, labelling the axis, kind is the parameter which is
 
 **Data-set required [flights](https://cloud-5jao3dtbu.vercel.app/0flights.csv "click to download")
 
-*Here we have used plot type **PairGrid** which is one of it's kind to compare the plotted graph between the different varibles of the same dataset. which i do like it and here we will use them visualize as scatter. First we have loaded the dataset in **a** variable and **b** variable as plot type and finally we have use **map** the scatter visual on pair-grid plot
-
+*Now, we will  use plot type **PairGrid** which is one of it's kind to compare the plotted graph between the different varibles of the same dataset. which i do like it*
+*Importing libraries namely numpy, pandas, matplotlib, seaborn, scipy. I know you will say too many libraries. Actually we are not using them directly but thing is they have dependencies  on each other. So, we will be using them indirectly...*
 
 ```python     
         import numpy as np
@@ -204,13 +209,27 @@ We are going to plot catplot, labelling the axis, kind is the parameter which is
         import matplotlib.pyplot as plt
         import seaborn as sns
         from scipy import stats
-        
-        a = sns.load_dataset("flights")
+```
 
+*First step we have loaded the dataset in **a** variable* 
+
+```python 
+        a = sns.load_dataset("flights")
+```
+*Then we will use ```b``` variable as plot type. You can see b variable is dependent  on a for dataset to be mapped.*
+
+```python
         b = sns.PairGrid(a)
-        
+```
+
+*Finally we will use **map** the scatter visual on pair-grid plot and we will use them visualize as scatter*
+
+```python
         b.map(plt.scatter)
-        
+```
+*As usual displaying the graph, we will be using this function.*
+
+```python
         plt.show()
 ```
         
@@ -219,34 +238,40 @@ We are going to plot catplot, labelling the axis, kind is the parameter which is
 
 ![Pair Grid](https://cloud-ikhasazgz.vercel.app/1pairgrid.png)
 
- ### I knew it you can do it! You have created your Pair grid plot ###
+ ### I knew it you can do it!🎆 You have created your Pair grid plot ###
 
 # Step 5. Heat Map
 
 **Data-set required [flights](https://cloud-5jao3dtbu.vercel.app/0flights.csv "click to download")
 
-*Plotting the heatmap one of the most amazing feeling i had and you can have it too!. First we have to import the libaries namely numpy, matplotlib & seaborn.
-second we need to load the datasets in a variable **flights**. Third variable we have used ax for how we want to plot the axes. We have some parameters like annot, fmt, linewidth and cmap. Last but not the least you can see the plot by using ``plt.show()```.
-
- 
+*Plotting the heatmap one of the most amazing feeling i had and you can have it too!.* 
+*First we have to import the libaries namely numpy, matplotlib & seaborn, Now this super easy task for you!🤗*
  
 ```python
         import numpy as np
         import matplotlib.pyplot as plt
         import seaborn as sns
+```
+*Secondly we need to load the datasets in a variable* ```flights``` to use them later.*
 
+```python
         flights = sns.load_dataset("flights")
 ```        
-*pivot is used so we can handle duplicate values for one index/column pair
+*Now, we will use pivot to handle duplicate values for one index/column pair and label them x axis as months, y axis as year and passengers will represent the intensity of color in heatmap. For simplicity we use this convention more the number of passengers more will be the intensity of the color.*
 ```python
+
         flights = flights.pivot("month", "year", "passengers")
-```        
-annot: the value will show on each cell of the heatmap
-# fmt: adding annotations.
-# linewidth: width between each box
-# cmap: cmap is a color template that we have used.
+        
+```   
+*Third variable, Now we will enhance look and fill to the plot by using some more parameters like annot, fmt, linewidth and cmap.*
+*some technical terms we  are going to use such as annot: the value will show on each cell of the heatmap, fmt: adding annotations, linewidth: width between each box, cmap: cmap is a color template that we have used.*
+
 ```python
         ax = sns.heatmap(flights, annot=True, fmt="d", linewidths=5, cmap="YlGnBu")
+```
+*As usual displaying the graph, we will be using this*
+```python
+        plt.show()
 ```
         
  **Output**
