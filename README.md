@@ -7,7 +7,9 @@ author: shivesh01
 **“Creativity is the goal. Coding is just to allow that. Creativity is in the front seat; technology is in the backseat. It is sort of the blend with both of these that you can do such powerful things now.”**                                             by       Tim cook
  
 # Welcome to Heatmap Workshop!🤗
-![Demo](https://cloud-r2hy2epxt.vercel.app/0ezgif.com-gif-maker.gif)
+![Slideshow](https://cloud-49dp118l9.vercel.app/0slidshow.gif)
+
+[Click Here to See Working HEATMAP DEMO on Repl](https://repl.it/@ShiveshSingh/Heatmap#main.py)
 
 # Index
 * Introduction
@@ -29,15 +31,9 @@ author: shivesh01
 
 # INTRODUCTION 
 
-In this workshop, you will use python language and its libraries to create a stunning heatmap from scratch. Even if you don't know the python language no worries this tutorial will guide you and keep you interested. Most importantly you will learn about heatmap. what is a heatmap? and how to make one like data scientists do!🤗.
+In this workshop, you will be using python language and its libraries to create a stunning heatmap from scratch. Even if you don't know the python language no worries this tutorial will guide you and keep you interested. Most importantly you will learn about heatmap. let's talk about what is a heatmap? and how to make one like data scientists do!🤗.
+A heat map (or heatmap) is a graphical representation of data where values are depicted by color. Heat maps make it easy to visualize complex data and understand it at a glance:
 Even you can visualize the data, your own data too!
-
-
-**I m showing you what you will learn after completing the workshop**
-
-![Seaborn Plot](https://cloud-plxk1wu16.vercel.app/0seaborn.png )
-
-[Click Here to See Working HEATMAP DEMO on Repl](https://repl.it/@ShiveshSingh/Heatmap#main.py)
 
 --
 > One step at a time is all it takes to get you there.
@@ -47,7 +43,7 @@ Even you can visualize the data, your own data too!
 
 # Getting started
 
-You just need to set up an account on repl Or you can run this program on your Python idle like pycharm, atom, Jupyter notebook, and visual studio e.t.c. Some basic knowledge is required for the computer and you are ready to go!.
+You just need to set up an account on repl or you can run this program on your Python idle like pycharm, atom, Jupyter notebook, and visual studio e.t.c. Some basic knowledge is required for the programming and you are ready to go!.
 I have designed this workshop sweet and simple for you! It just takes 15-20minutes to complete the workshop...
 Ready!
 get set!
@@ -58,7 +54,29 @@ Go!
 
 ### Setting up an account on repl
 
-**when we program in repl it automatically imports the libraries and dependencies with the simple command. So, You just need a replt account or any python idle to get started**
+- Go to the repl website and sign up 
+[Repl website](https://repl.it/signup) and create a file
+
+
+![repl website](https://cloud-5pg8raikb.vercel.app/0screenshot_2020-12-23_at_10.38.39.png)   ![create file](https://cloud-5pg8raikb.vercel.app/1screenshot_2020-12-23_at_11.13.43.png)
+
+- create a file  by clicking **+ New repl** and choose programming language **python** and named it as you want and click **create repl**
+
+- Download the datasets from a simple click and Drag and drop to the folder in which you are working on repl.
+ ---         --- 
+**Data-sets** [flights](https://cloud-5jao3dtbu.vercel.app/0flights.csv "click to download") and [tips](https://cloud-1oaqj43if.vercel.app/0tips.csv "click to download") 
+ ---         ---
+
+- Rename these file as flights and tips in repl folder in which you are working
+
+- you are ready to code!
+
+
+# You have done a fantastic work by completing step zero!👏
+
+**Advantage of working on repl**
+
+*when we program in repl it automatically imports the libraries and dependencies with the simple command. So, You just need a replt account or any python idle to get started*
      
 # Know more about the libraries you will going to use:
 
@@ -212,12 +230,13 @@ Great Right!😲
 
 # voilà!
 
+**congratulations!✌️  you have completed the workshop. Share with your friends and family.
+Frankly share with everyone🤗✌️🥳👏🏅🌇🎊
 
-![**congratulations!✌️  you have completed the workshop.](https://cloud-mga2rf9gs.vercel.app/4tenor__1_.gif)
+![congratulations  g.i.f](https://cloud-mga2rf9gs.vercel.app/4tenor__1_.gif)
 
-**You can create a lot of variety of heatmap as I have created below 
-You can try these too! try to figure it out own your own...**
-![flight heatmap](https://cloud-tgw4nss32.vercel.app/0heatmap_2.png)
+### You can create a lot of variety of heatmap as I have created below
+ ![flight heatmap](https://cloud-tgw4nss32.vercel.app/0heatmap_2.png)
 
 
 ```python
@@ -238,7 +257,7 @@ plt.show()
 ```
 
 ![flight heatmap staircase](https://cloud-tgw4nss32.vercel.app/1heatmap_4.png)
- **Data-set required named [flights](https://cloud-5jao3dtbu.vercel.app/0flights.csv "click to download")
+  **Data-set required named [flights](https://cloud-5jao3dtbu.vercel.app/0flights.csv "click to download")
 
 
 ```python
