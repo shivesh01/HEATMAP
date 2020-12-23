@@ -1,6 +1,6 @@
 ---
 name: Heatmap
-description: Data visualisation with Seaborn
+description: Data visualization with Seaborn
 author: shivesh01
 ---
 
@@ -31,9 +31,9 @@ author: shivesh01
 
 # INTRODUCTION 
 
-In this workshop, you will be using python language and its libraries to create a stunning heatmap from scratch. Even if you don't know the python language no worries this tutorial will guide you and keep you interested. Most importantly you will learn about heatmap. let's talk about what is a heatmap? and how to make one like data scientists do!🤗.
+In this workshop, you will be using the python language and its libraries to create a stunning heatmap from scratch. Even if you don't know the python language no worries this tutorial will guide you and keep you interested. Most importantly you will learn about heatmap. let's talk about what is a heatmap? and how to make one like data scientists do!🤗.
 A heat map (or heatmap) is a graphical representation of data where values are depicted by color. Heat maps make it easy to visualize complex data and understand it at a glance:
-Even you can visualize the data, your own data too!
+Even you can visualize the data, your data too!
 
 --
 > One step at a time is all it takes to get you there.
@@ -62,30 +62,30 @@ Go!
 
 - create a file  by clicking **+ New repl** and choose programming language **python** and named it as you want and click **create repl**
 
-- Download the datasets from a simple click and Drag and drop to the folder in which you are working on repl.
+- Download the datasets from a simple click and Drag and drop them to the folder in which you are working on repl.
  ---         --- 
 __Datasets__ [flights](https://cloud-5jao3dtbu.vercel.app/0flights.csv "click to download") and [tips](https://cloud-1oaqj43if.vercel.app/0tips.csv "click to download") 
  ---         ---
 
-- Rename these file as flights and tips in repl folder in which you are working
+- Rename these file as flights and tips in the repl folder in which you are working
 ![drag and drop](https://cloud-lip1d7sks.vercel.app/0download___drop.png)![rename](https://cloud-qh6au738f.vercel.app/1screenshot_2020-12-23_at_11.57.02_1.png)
 
 - you are ready to code!
 
 
-# You have done a fantastic work by completing step zero!👏
+# You have done fantastic work by completing step zero!👏
 
 **Advantage of working on repl**
 
 *when we program in repl it automatically imports the libraries and dependencies with the simple command. So, You just need a repl account or any python idle to get started.*
      
-# Know more about the libraries you will going to use:
+# Know more about the libraries you will be going to use:
 
 ## Pandas🐼
 Pandas is a popular Python-based toolkit. It presents a diverse range of utilities like converting an entire data table into a NumPy matrix array and much more. This makes pandas a trusted ally in data science and machine learning.
 
 ## Numpy🔢
-NumPy is a library used for working with arrays. Basically, it is used to perform a large set of mathematical operations on an array. An array is a data structure consisting of a collection of elements, each identified by at least one array index or key.
+NumPy is a library used for working with arrays. It is used to perform a large set of mathematical operations on an array. An array is a data structure consisting of a collection of elements, each identified by at least one array index or key.
 
 ## Scipy👨🏻‍🔬
 SciPy is an open-source Python library that is used to solve scientific and mathematical problems. It is built on the NumPy extension and allows the user to manipulate and visualize data with a wide range of high-level commands.
@@ -102,8 +102,8 @@ Great Right!😲
  
  # Step 1.Plotting Scatter PLot
  
- *First we need to import two libraries namely seaborn and matplotlib to repl for that we just need need to type below commond in main.py file
- we have used two shortcuts sns represents seaborn and plt represents matplotlib*
+ *First we need to import two libraries namely seaborn and matplotlib to repl for that we just need to type the below command in the main.py file
+ we have used two shortcuts ```sns``` represents seaborn and ```plt``` represents matplotlib*
 ```python 
 
         import seaborn as sns
@@ -114,7 +114,7 @@ Great Right!😲
         height = [62, 64, 69, 75, 66, 68, 65, 71, 76, 73]
         weight = [120, 136, 148, 175, 137, 165, 154, 172, 200, 187]
 ```
-*Now we can plot & label the graph with graph-type and label then what you want to put on **x** and **y** axis in graph. Here we will be  going with scatterplot as graph-type and x label as height and y label as weight.*
+*Now we can plot & label the graph with graph-type and label then what you want to put on **x** and **y** axis in the graph. Here we will be going with scatterplot as graph-type and x label as height and y label as weight.*
 ```python
         sns.scatterplot(x=height, y=weight)
 ```
@@ -133,21 +133,21 @@ Great Right!😲
 
 # Step 2. Relp Plot
 
-*This plot will need ```flights dataset``` so , If you already have downloaded and pasted in the reply folder. Then you don't need to do it twice. Otherwise i have included* 
+*This plot will need ```flights dataset``` so If you already have downloaded and pasted in the reply folder. Then you don't need to do it twice. Otherwise, I have included* 
 Data-set required named [flights](https://cloud-5jao3dtbu.vercel.app/0flights.csv "click to download")
 
-*Importing the required libraries as namely numpy, pandas, matplotlib & seaborn. You can do it too. Let's do it together!*
+*Importing the required libraries as namely NumPy, pandas, matplotlib & seaborn. You can do it too. Let's do it together!*
 ```python
         import numpy as np
         import pandas as pd
         import matplotlib.pyplot as plt
         import seaborn as sns
 ```
-*Here, we need one extra step because we are going download a flights data-sets. Download the dataset and put in your repl folder in which we are working and rename as* ```flights``` . * and let's put this in a variable. so, we can this variable letter as shown below.*
+*Here, we need one extra step because we are going to download a flight's data-sets. Download the dataset and put it in your repl folder in which we are working and rename it as* ```flights```. * and let's put this in a variable. so, we can this variable letter as shown below.*
 ```python       
        flights = sns.load_dataset("flights")
 ```
-*Relp-plot  is one minimalist  plot i have discovered and i know you will like it too. Here we will be using relp graph plot with label as ```x axis as passengers```,```labelling y axis as month```,``` hue represents as color appearance parameters``` & we need to load the data-set for that we have already created a variable flights and we use them as data = flights.*
+*Relp-plot is one minimalist plot I have discovered and I know you will like it too. Here we will be using relp graph plot with the label as ``` x-axis as passengers```,```labeling y-axis as  month```,``` hue represents as color appearance parameters``` & we need to load the data-set for that we have already created a variable `` `flights ``` and we use them as data = flights.*
 ```python
        sns.relplot(x="passengers", y="month", hue="year", data=flights)
 ```       
@@ -174,7 +174,7 @@ Data-set required named [flights](https://cloud-5jao3dtbu.vercel.app/0flights.cs
         import matplotlib.pyplot as plt
         import seaborn as sns
 ```
-*Now simply loading ```tips``` dataset in tips variable(you can load datasets in any variable but make sure you use rename them each places too.* 
+*Now simply loading ```tips``` dataset in tips variable(you can load datasets in any variable but make sure you use rename them reach places too.* 
 
 ```python
         tips = sns.load_dataset("tips")
@@ -200,8 +200,8 @@ Data-set required named [flights](https://cloud-5jao3dtbu.vercel.app/0flights.cs
 
 **Data-set required [flights](https://cloud-5jao3dtbu.vercel.app/0flights.csv "click to download")
 
-*Now, we will  use plot type **PairGrid** which is one of it's kind to compare the plotted graph between the different varibles of the same dataset. which i do like it*
-*Importing libraries namely numpy, pandas, matplotlib, seaborn, scipy. I know you will say too many libraries. Actually we are not using them directly but thing is they have dependencies  on each other. So, we will be using them indirectly...*
+*Now, we will use plot type **PairGrid** which is one of its kind to compare the plotted graph between the different variables of the same dataset. which I do like it*
+*Importing libraries namely numpy, pandas, matplotlib, seaborn, scipy. I know you will say too many libraries. We are not using them directly but the thing is they have dependencies on each other. So, we will be using them indirectly...*
 
 ```python     
         import numpy as np
@@ -216,7 +216,7 @@ Data-set required named [flights](https://cloud-5jao3dtbu.vercel.app/0flights.cs
 ```python 
         a = sns.load_dataset("flights")
 ```
-*Then we will use ```b``` variable as plot type. You can see b variable is dependent  on a for dataset to be mapped.*
+*Then we will use the ```b``` variable as plot type. You can see b variable is dependent on a for the dataset to be mapped.*
 
 ```python
         b = sns.PairGrid(a)
@@ -244,8 +244,8 @@ Data-set required named [flights](https://cloud-5jao3dtbu.vercel.app/0flights.cs
 
 **Data-set required [flights](https://cloud-5jao3dtbu.vercel.app/0flights.csv "click to download")
 
-*Plotting the heatmap one of the most amazing feeling i had and you can have it too!.* 
-*First we have to import the libaries namely numpy, matplotlib & seaborn, Now this super easy task for you!🤗*
+*Plotting the heatmap one of the most amazing feelings I had and you can have it too!.* 
+*First we have to import the libraries namely numpy, matplotlib & seaborn, Now this super easy task for you!🤗*
  
 ```python
         import numpy as np
@@ -257,19 +257,19 @@ Data-set required named [flights](https://cloud-5jao3dtbu.vercel.app/0flights.cs
 ```python
         flights = sns.load_dataset("flights")
 ```        
-*Now, we will use pivot to handle duplicate values for one index/column pair and label them x axis as months, y axis as year and passengers will represent the intensity of color in heatmap. For simplicity we use this convention more the number of passengers more will be the intensity of the color.*
+*Now, we will use pivot to handle duplicate values for one index/column pair and label the ```x-axis``` as months, ```y-axis``` as the year, and ```passengers``` will represent the intensity of in heatmap. For simplicity we use this convention more the number of passengers more will be the intensity of the color.*
 ```python
 
         flights = flights.pivot("month", "year", "passengers")
         
 ```   
-*Third variable, Now we will enhance look and fill to the plot by using some more parameters like annot, fmt, linewidth and cmap.*
-*some technical terms we  are going to use such as annot: the value will show on each cell of the heatmap, fmt: adding annotations, linewidth: width between each box, cmap: cmap is a color template that we have used.*
+*Third variable, Now we will enhance look and fill to the plot by using some more parameters like annot, fmt, linewidth, and cmap.*
+*some technical terms we are going to use such as annot: the value will show on each cell of the heatmap, fmt: adding annotations, linewidth: width between each box, cmap: cmap is a color template that we have used.*
 
 ```python
         ax = sns.heatmap(flights, annot=True, fmt="d", linewidths=5, cmap="YlGnBu")
 ```
-*As usual displaying the graph, we will be using this*
+* As usual, displaying the graph, we will be using this*
 ```python
         plt.show()
 ```
@@ -282,7 +282,7 @@ Data-set required named [flights](https://cloud-5jao3dtbu.vercel.app/0flights.cs
 
 # voilà!
 
-**congratulations!✌️  you have completed the workshop. Share with your friends and family.
+**Congratulations!✌️  you have completed the workshop. Share with your friends and family.
 Frankly share with everyone🤗✌️🥳👏🏅🌇🎊**
 
 ![congratulations  g.i.f](https://cloud-mga2rf9gs.vercel.app/4tenor__1_.gif)
@@ -335,7 +335,7 @@ You can learn these graph plots too!
 Resources
 
 - [Univariate Distribution of Birth Rate](https://towardsdatascience.com/visualize-world-trends-using-seaborn-in-python-2e563e7d35da)
-- [Cat plot Life Expectancy of people in different of the world](https://cmdlinetips.com/2019/03/catplot-in-seaborn-python/)
+- [Cat plot Life Expectancy of people indifferent of the world](https://cmdlinetips.com/2019/03/catplot-in-seaborn-python/)
 - [Cereals compositions Heatmap](https://towardsdatascience.com/heatmap-basics-with-pythons-seaborn-fb92ea280a6c)
 
 
