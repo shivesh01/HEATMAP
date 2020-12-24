@@ -4,7 +4,7 @@ description: 'Data visualization with Sea born'
 author: '@shivesh01'
 ---
 
-# Heat map Workshop!
+# Heat Map
 
 ![Slideshow](https://cloud-49dp118l9.vercel.app/0slidshow.gif)
 
@@ -161,7 +161,7 @@ Wow! You have created your relp plot 🥳👏🏻
 # Step 3. Violin Plot
 
 
-**Data-set required named [tips](https://cloud-1oaqj43if.vercel.app/0tips.csv "click to download")
+Data-set required named [tips](https://cloud-1oaqj43if.vercel.app/0tips.csv "click to download")
 
 
 *Here, we need two libraries namely matplotlib and seaborn and you know how to import the library. Right?😉*
@@ -194,7 +194,7 @@ Fantastic! You have created your violin plot 👏
 
 
 
-**Data-set required [flights](https://cloud-5jao3dtbu.vercel.app/0flights.csv "click to download")
+Data-set required [flights](https://cloud-5jao3dtbu.vercel.app/0flights.csv "click to download")
 
 *Now, we will use plot type **PairGrid** which is one of its kind to compare the plotted graph between the different variables of the same dataset. which I do like it*
 *Importing libraries namely numpy, pandas, matplotlib, seaborn, scipy. I know you will say too many libraries. We are not using them directly but the thing is they are dependent on each other. So, we will be using them indirectly...*
@@ -232,13 +232,13 @@ plt.show()
 
 ![Pair Grid](https://cloud-ikhasazgz.vercel.app/1pairgrid.png)
 
-### I knew it you can do it!🎆 You have created your Pair grid plot ###
+**I knew it you can do it!🎆 You have created your Pair grid plot***
 
 
 
 # Step 5. Heat Map
 
-**Data-set required [flights](https://cloud-5jao3dtbu.vercel.app/0flights.csv "click to download")
+Data-set required [flights](https://cloud-5jao3dtbu.vercel.app/0flights.csv "click to download")
 
 *Plotting the heatmap one of the most amazing feelings I had and you can have it too!.* 
 *First we have to import the libraries namely numpy, matplotlib & seaborn, Now this super easy task for you!🤗*
@@ -284,7 +284,7 @@ Frankly share with everyone🤗✌️🥳👏🏅🌇🎊**
 
 
 
-### You can create a lot of variety of heat maps as I have created below. 
+**You can create a lot of variety of heat maps as I have created below.** 
 ![flight heat map](https://cloud-tgw4nss32.vercel.app/0heatmap_2.png)
 
 
@@ -306,7 +306,7 @@ plt.show()
 ```
 
 ![flight heatmap staircase](https://cloud-tgw4nss32.vercel.app/1heatmap_4.png)
-**Data-set required named** [flights](https://cloud-5jao3dtbu.vercel.app/0flights.csv "click to download")
+Data-set required named [flights](https://cloud-5jao3dtbu.vercel.app/0flights.csv "click to download")
 
 
 ```python
