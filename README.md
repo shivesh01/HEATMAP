@@ -14,7 +14,7 @@ We use data everywhere. Your smartphone for instance, or the satellite navigatio
 Data that we share among ourselves mostly is visual data which may be text, audio, video or graphs. Which is essential for us to continue discovering new things and keep ourselves connected. 
 Visual data such as graphs plays an important role in understanding complex data and even helps us to remember for a lit longer. Graphs can be of many kinds but we are here to learn about heat maps and even make them while learning.
 
-[Click here to see working HEATMAP DEMO on Repl](https://repl.it/@ShiveshSingh/Heatmap#main.py)
+[Click here to see working HEATMAP DEMO on repl](https://repl.it/@ShiveshSingh/Heatmap#main.py)
 
 
 
@@ -99,7 +99,9 @@ Great Right!😲
 
 
 
-# Step 1. Plotting Scatter PLot
+# Step 1. Scatter PLot
+
+*A scatter plot is a type of plot which display values for typically two variables for a set of data. Let's create our own scatter plot.*
 *First we need to import two libraries namely seaborn and matplotlib to repl for that we just need to type the below command in the main.py file
 we have used two shortcuts ```sns``` represents seaborn and ```plt``` represents matplotlib*
 ```python 
@@ -129,10 +131,11 @@ Fantastic! You have created your first plot🥳
 
 
 
-# Step 2. Relp Plot
+# Step 2. Relplot
 
-*This plot will need ```flights dataset``` so If you already have downloaded and pasted in the reply folder. Then you don't need to do it twice. Otherwise, I have included* 
-Data-set required named [flights](https://cloud-5jao3dtbu.vercel.app/0flights.csv "click to download")
+*A Relplot function of Seaborn library is a figure-level function for visualizing statistical relationships using two common approaches: scatter plots and line plots. Let create our own relplot by following the steps given below*
+\
+Data-set required [flights](https://cloud-5jao3dtbu.vercel.app/0flights.csv "click to download")
 
 *Importing the required libraries as namely NumPy, pandas, matplotlib & seaborn. You can do it too. Let's do it together!*
 ```python
@@ -155,13 +158,15 @@ plt.show()
 ```
 Wow! You have created your relp plot 🥳👏🏻
 **Output**
-![Relp plot](https://cloud-ikhasazgz.vercel.app/2relp_plot.png)
+![Relplot](https://cloud-ikhasazgz.vercel.app/2relp_plot.png)
 
 
 # Step 3. Violin Plot
 
+*A Violin Plot is used to visualize the distribution of the data and its probability density.  Show the distribution shape of the data.*
 
-Data-set required named [tips](https://cloud-1oaqj43if.vercel.app/0tips.csv "click to download")
+
+Data-set required [tips](https://cloud-1oaqj43if.vercel.app/0tips.csv "click to download")
 
 
 *Here, we need two libraries namely matplotlib and seaborn and you know how to import the library. Right?😉*
@@ -190,13 +195,17 @@ plt.show()
 
 
 Fantastic! You have created your violin plot 👏
+
+
+
 # Step 4. Pair Grid
 
 
 
+*Pair Plots are a really simple (one-line-of-code simple!) way to visualize relationships between each variable.Now, we will use plot type **PairGrid** which is one of its kind to compare the plotted graph between the different variables of the same dataset. which I do like it*
+
 Data-set required [flights](https://cloud-5jao3dtbu.vercel.app/0flights.csv "click to download")
 
-*Now, we will use plot type **PairGrid** which is one of its kind to compare the plotted graph between the different variables of the same dataset. which I do like it*
 *Importing libraries namely numpy, pandas, matplotlib, seaborn, scipy. I know you will say too many libraries. We are not using them directly but the thing is they are dependent on each other. So, we will be using them indirectly...*
 
 ```python 
@@ -237,6 +246,9 @@ plt.show()
 
 
 # Step 5. Heat Map
+
+*A heatmap is a graphical representation of data that uses  colour-coding to represent different values. Heatmaps are used in various forms of analytics but are most commonly used to show user data like growth of the object during the time.
+Example: pollution graph and region climate etc*
 
 Data-set required [flights](https://cloud-5jao3dtbu.vercel.app/0flights.csv "click to download")
 
