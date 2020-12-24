@@ -35,11 +35,9 @@ In this workshop, you will be using the python language and its libraries to cre
 A heat map (or heatmap) is a graphical representation of data where values are depicted by color. Heat maps make it easy to visualize complex data and understand it at a glance:
 Even you can visualize the data, your data too!
 
---
-> One step at a time is all it takes to get you there.
-                                                     by Emily Dickinson
---                                                 
 
+``` One step at a time is all it takes to get you there.```
+                                                          by Emily Dickinson                                                
 
 # Getting started
 
