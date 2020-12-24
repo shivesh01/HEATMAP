@@ -39,8 +39,7 @@ Even you can visualize the data, your data too!
 
 # Getting started
 
-You just need to set up an account on repl. you can run this program on your Python idle too. Idle like pycharm, atom, jupyter notebook, and visual studio e.t.c. Some basic knowledge is required for the programming and you are ready to go!.
-I have designed this workshop sweet and simple for you!. It will just take 15-20minutes to complete the workshop.
+You just need to set up an account on repl. you can run this program on your Python idle too. Idle like Pycharm, Atom, Jupyter notebook and Visual studio e.t.c. Some basic knowledge is required for the programming and you are ready to go. I have designed this workshop sweet and simple for you. It will just take 15-20minutes to complete the workshop.
 Ready, Get set & Go!                                  
 
 ## Step zero!
@@ -53,18 +52,17 @@ Ready, Get set & Go!
 
 ![repl website](https://cloud-5pg8raikb.vercel.app/0screenshot_2020-12-23_at_10.38.39.png)   ![create repl](https://cloud-5pg8raikb.vercel.app/1screenshot_2020-12-23_at_11.13.43.png)
 
-- create a repl  by clicking **+ New repl** and choose programming language PYTHON and named it as you want and click **create repl**
+- create a repl  by clicking **+ New repl** and choose programming language **PYTHON** and named it as you want and click **create repl**
 
 - Download the datasets from a simple click and Drag and drop them to the folder in which you are working on repl.\
  [flights](https://cloud-5jao3dtbu.vercel.app/0flights.csv "click to download") and [tips](https://cloud-1oaqj43if.vercel.app/0tips.csv "click to download") 
 
-- Rename these file as flights and tips in the repl folder in which you are working
+- Rename the file as flights and tips in the repl folder in which you are working.
 ![drag and drop](https://cloud-lip1d7sks.vercel.app/0download___drop.png)![rename](https://cloud-qh6au738f.vercel.app/1screenshot_2020-12-23_at_11.57.02_1.png)
 
 - Set is successfully completed . ✅ 
-
-
-## You have done fantastic work by completing step zero!👏
+  
+  You have done a fantastic work by completing step zero!👏
 
 **Advantage of working on repl**
 
@@ -119,7 +117,7 @@ plt.show()
  
  ![Scatter plot](https://cloud-ikhasazgz.vercel.app/3scatter_plot.png )
  
- ### Fantastic! You have created your first plot🥳
+ Fantastic! You have created your first plot🥳
 
 
 # Step 2. Relp Plot
@@ -146,7 +144,7 @@ sns.relplot(x="passengers", y="month", hue="year", data=flights)
 ```python     
 plt.show() 
 ```
- ### Wow! You have created your relp plot 🥳👏🏻###
+ Wow! You have created your relp plot 🥳👏🏻
         
  **Output**
  
@@ -184,7 +182,7 @@ plt.show()
 ![Violen plot](https://cloud-ikhasazgz.vercel.app/4violin_plot.png)
 
 
- ### Fantastic! You have created your violin plot ###
+ Fantastic! You have created your violin plot 👏
         
         
 # Step 4. Pair Grid
