@@ -23,12 +23,12 @@ Visual data such as graphs plays an important role in understanding complex data
 * Introduction
 
 * Steps 
- * Step Zero: Importing libraries
- * Step One: Plotting Scatterplot
- * Step Two: Relp Plot
- * Step Three: Violin plot
- * Step Four: Pair Grid
- * Step Five: Heat map
+  - Step Zero: Importing libraries
+  - Step One: Plotting Scatterplot
+  - Step Two: Relp Plot
+  - Step Three: Violin plot
+  - Step Four: Pair Grid
+  - Step Five: Heat map
 * Application
 
 * Resources for datasets
@@ -65,14 +65,15 @@ Ready, Get set & Go!
 - create a repl by clicking **+ New repl** and choose programming language **PYTHON** and named it as you want and click **create repl**
 
 - Download the datasets from a simple click and Drag and drop them to the folder in which you are working on repl.\
-[flights](https://cloud-5jao3dtbu.vercel.app/0flights.csv "click to download") and [tips](https://cloud-1oaqj43if.vercel.app/0tips.csv "click to download") 
-![drag and drop](https://cloud-lip1d7sks.vercel.app/0download___drop.png)
+
+[flights](https://cloud-5jao3dtbu.vercel.app/0flights.csv "click to download") and [tips](https://cloud-1oaqj43if.vercel.app/0tips.csv "click to download")
+\
+![Download](https://cloud-hwdir3hzy.vercel.app/0screenshot_2020-12-23_at_11.42.35.png)
 
 - Rename the file as flights and tips in the repl folder in which you are working.
 ![rename](https://cloud-qh6au738f.vercel.app/1screenshot_2020-12-23_at_11.57.02_1.png)
 
-- Setup is completed . ✅ 
- You have done fantastic work by completing step zero!👏
+- Setup is completed ✅.
 
 **Advantage of working on repl**
 
