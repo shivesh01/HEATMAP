@@ -140,7 +140,7 @@ Wow! You have created your relp plot 🥳👏🏻
 # Step 3. Violin Plot
 
 
-*Violin plot allows to visualize the distribution of a numeric variable for one or several groups. Each ‘violin’ represents a group or a variable. The shape represents the density estimate of the variable: the more data points in a specific range, the larger the violin is for that range.*
+*Violin plot allows to visualize the distribution of a numeric variable for one or several groups. Each violin represents a group or a variable. The shape represents the density estimate of the variable: the more data points in a specific range, the larger the violin is for that range.*
 
 Data-set required [tips](https://cloud-1oaqj43if.vercel.app/0tips.csv "click to download")
 
