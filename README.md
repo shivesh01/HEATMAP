@@ -6,7 +6,7 @@ author: '@shivesh01'
 
 # Heat Map
 
-![Slideshow](https://cloud-49dp118l9.vercel.app/0slidshow.gif)
+![Slideshow](https://cloud-tgw4nss32.vercel.app/0heatmap_2.png)
 
 
 
@@ -36,7 +36,7 @@ You need to set up a repl account. you can run this program on your Python idle 
 [Create a repl](https://repl.it/signup)
 
 
-![repl website](https://cloud-5pg8raikb.vercel.app/0screenshot_2020-12-23_at_10.38.39.png) ![create repl](https://cloud-5pg8raikb.vercel.app/1screenshot_2020-12-23_at_11.13.43.png)
+![repl website](https://cloud-73h0sldam.vercel.app/0screenshot_2020-12-25_at_23.03.53.png)
 
 - create a repl by clicking **+ New repl** and choose programming language **PYTHON** and named it as you want and click **create repl**
 
@@ -46,7 +46,6 @@ You need to set up a repl account. you can run this program on your Python idle 
 ![Download](https://cloud-hwdir3hzy.vercel.app/0screenshot_2020-12-23_at_11.42.35.png)
 
 - Rename the file as flights and tips in the repl folder in which you are working.
-![rename](https://cloud-qh6au738f.vercel.app/1screenshot_2020-12-23_at_11.57.02_1.png)
 
 - Setup is completed ✅.
 
@@ -271,7 +270,7 @@ Share with everyone🤗✌️🥳👏🏅🌇🎊**
 # Keep Hacking!
 
 **You can create a lot of variety of heat maps as I have created below.** 
-![flight heat map](https://cloud-tgw4nss32.vercel.app/0heatmap_2.png)
+![Red heat map](https://cloud-tgw4nss32.vercel.app/0heatmap_2.png)
 
 
 ```python
