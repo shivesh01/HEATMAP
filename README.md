@@ -1,6 +1,6 @@
 ---
-name: 'Make your own Heat map'
-description: 'Data visualization with Sea born'
+name: 'Make your own Heat Map'
+description: 'Created amazing data visual graph with the help of Python'
 author: '@shivesh01'
 ---
 
@@ -10,54 +10,30 @@ author: '@shivesh01'
 
 
 
-We use data everywhere. Your smartphone for instance, or the satellite navigation system in your car; maybe the car itself, what not? 
-Data that we share among ourselves mostly is visual data which may be text, audio, video or graphs. Which is essential for us to continue discovering new things and keep ourselves connected. 
+We use data everywhere. Your smartphone for instance, and the satellite navigation system in your car are a couple of examples. Data that we share among ourselves mostly is visual data which may be text, audio, video or graphs. Which is essential for us to continue discovering new things and keep ourselves connected. 
 Visual data such as graphs plays an important role in understanding complex data and even helps us to remember for a lit longer. Graphs can be of many kinds but we are here to learn about heat maps and even make them while learning.
 
-[Click here to see working HEATMAP DEMO on repl](https://repl.it/@ShiveshSingh/Heatmap#main.py)
-
-
-
-
-# Index
-* Introduction
-
-* Steps 
-  - Step Zero: Importing libraries
-  - Step One: Plotting Scatterplot
-  - Step Two: Relp Plot
-  - Step Three: Violin plot
-  - Step Four: Pair Grid
-  - Step Five: Heat map
-* Application
-
-* Resources for datasets
-
-* Hacking
+[Click here to see a working demo of today's project](https://repl.it/@ShiveshSingh/Heatmap#main.py)
 
 
 
 # Introduction 
 
-In this workshop, you will be using the python language and its libraries to create a stunning heatmap from scratch. Even if you don't know the python language no worries this tutorial will guide you and keep you interested. Most importantly you will learn about heatmap. let's talk about what is a heat map? and how to make one like data scientists do!🤗.
-The heat maps are graphical representation of data where values are represented by shades of color. Heat maps make it easy to visualize complex data and understand it at a glance:
-Even you can visualize the data, your data too!
+In this workshop, you will use the Python language and its libraries to create a stunning heat map from scratch. Even if you don’t know the Python language, no worries this tutorial will guide you and keep you interested. You will learn about heat map. Let’s talk about what is a heat map? and make one like data scientists do!
 
+The heat maps are a graphical representation of data where values represented by shades of color. Heat maps make it easy to visualize complex data and understand it at a glance.
 
-> One step at a time is all it takes to get you there.
 
 
 # Getting started
 
-You just need to set up an account on repl. you can run this program on your Python idle too. Idle like Pycharm, Atom, Jupyter notebook and Visual studio e.t.c. Some basic knowledge is required for the programming and you are ready to go. I have designed this workshop sweet and simple for you. It will just take 15-20 minutes to complete the workshop.
-Ready, Get set & Go! 
+You need to set up a repl account. you can run this program on your Python idle too. It requires some basic knowledge for the programming and you are ready to go. I have designed this workshop sweet and simple for you. It will just take 15-20 minutes to complete the workshop. 
 
 ## Step zero!
 
-### Setting up an account on repl
+- Repl is an online and instant development environment to learn, build, collaborate, and host your project.So you don’t have to waste time while setting up a development environment. Creating an account on repl is super easy.
 
-- Go to the repl website and sign up 
-[Repl website](https://repl.it/signup) and create a repl
+[Create a repl](https://repl.it/signup)
 
 
 ![repl website](https://cloud-5pg8raikb.vercel.app/0screenshot_2020-12-23_at_10.38.39.png) ![create repl](https://cloud-5pg8raikb.vercel.app/1screenshot_2020-12-23_at_11.13.43.png)
@@ -137,18 +113,18 @@ Fantastic! You have created your first plot🥳
 \
 Data-set required [flights](https://cloud-5jao3dtbu.vercel.app/0flights.csv "click to download")
 
-*Importing the required libraries as namely NumPy, pandas, matplotlib & seaborn. You can do it too. Let's do it together!*
+*First, we need to Import the required libraries as namely NumPy, Pandas, Matplotlib & Seaborn and loading the dataset in a variable named ```flights```. You can do it too.*
+
 ```python
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
-```
-*Here, we need one extra step because we are going to download a flight's data-sets. Download the dataset and put it in your repl folder in which we are working and rename it as* ```flights```. * and let's put this in a variable. so, we can write this variable letter as shown below.*
-```python 
 flights = sns.load_dataset("flights")
+
 ```
-*Relp-plot is one minimalist plot I have discovered and I know you will like it too. Here we will be using relp graph plot with the label as ``` x-axis as passengers```,```labeling y-axis as month```,``` hue represents as color appearance parameters``` & we need to load the data-set for that we have already created a variable `` `flights ``` and we use them as data = flights.*
+*Relp-plot is one minimalist plot I have discovered and I know you will like it too. We will use relp graph plot with the label as ``` x-axis``` as passengers, labeling ```y-axis``` as month, hue represents as color appearance parameters & we need to load the data-set in a variable* `` `flights ```
+
 ```python
 sns.relplot(x="passengers", y="month", hue="year", data=flights)
 ``` 
@@ -163,14 +139,13 @@ Wow! You have created your relp plot 🥳👏🏻
 
 # Step 3. Violin Plot
 
-*A Violin Plot is used to visualize the distribution of the data and its probability density.  Show the distribution shape of the data.*
 
+*Violin plot allows to visualize the distribution of a numeric variable for one or several groups. Each ‘violin’ represents a group or a variable. The shape represents the density estimate of the variable: the more data points in a specific range, the larger the violin is for that range.*
 
 Data-set required [tips](https://cloud-1oaqj43if.vercel.app/0tips.csv "click to download")
 
 
-*Here, we need two libraries namely matplotlib and seaborn and you know how to import the library. Right?😉*
-*Go ahead and do it*
+*Here, we need two libraries, namely Matplotlib and Seaborn, and you know how to import the library.*
 ```python
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -199,7 +174,6 @@ Fantastic! You have created your violin plot 👏
 
 
 # Step 4. Pair Grid
-
 
 
 *Pair Plots are a really simple (one-line-of-code simple!) way to visualize relationships between each variable.Now, we will use plot type **PairGrid** which is one of its kind to compare the plotted graph between the different variables of the same dataset. which I do like it*
@@ -289,12 +263,12 @@ plt.show()
 # voilà!
 
 **Congratulations!✌️ you have completed the workshop. Share it with your friends and family.
-Frankly share with everyone🤗✌️🥳👏🏅🌇🎊**
+Share with everyone🤗✌️🥳👏🏅🌇🎊**
 
 ![congratulations g.i.f](https://cloud-mga2rf9gs.vercel.app/4tenor__1_.gif)
 
 
-
+# Keep Hacking!
 
 **You can create a lot of variety of heat maps as I have created below.** 
 ![flight heat map](https://cloud-tgw4nss32.vercel.app/0heatmap_2.png)
@@ -337,12 +311,27 @@ plt.show()
 ```
 
 
-# Keep Hacking!
 
-You can learn these graph plots !
+![Boxen plot](https://cloud-gczpau6uw.vercel.app/0screenshot_2020-12-25_at_22.35.03.png)
 
-![](https://cloud-8c3mmthaa.vercel.app/0keep_hacking.png "You can make it happen!")
-Resources
+Data-set required [tips](https://cloud-1oaqj43if.vercel.app/0tips.csv "click to download")
+
+
+
+
+```python
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+tips = sns.load_dataset("tips")
+sns.catplot(x="day", y="total_bill",kind="boxen", data=tips)
+plt.show()
+```
+
+
+More Resources
 
 - [Univariate Distribution of Birth Rate](https://towardsdatascience.com/visualize-world-trends-using-seaborn-in-python-2e563e7d35da)
 - [Cat plot Life Expectancy of people indifferent of the world](https://cmdlinetips.com/2019/03/catplot-in-seaborn-python/)
